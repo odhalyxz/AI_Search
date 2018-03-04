@@ -1,0 +1,15 @@
+{"nodes":[
+	{"id":1,"label":"A","x":200,"y":400},
+	{"id":2,"label":"B","x":300,"y":700},
+	{"id":3,"label":"C","x":400,"y":200},
+	{"id":4,"label":"D","x":600,"y":700},
+	{"id":5,"label":"E","x":600,"y":500},
+	{"id":6,"label":"F","x":800,"y":300},
+	{"id":7,"label":"G","x":900,"y":500},
+	{"id":8,"label":"H","x":1200,"y":500}],
+	"edges":[{"to":2,"from":1,"label":2},
+	{"to":3,"from":1,"label":4},{"to":5,"from":3,"label":3},
+	{"to":6,"from":3,"label":8},{"to":6,"from":5,"label":2},
+	{"to":4,"from":2,"label":5},{"to":7,"from":4,"label":9},
+	{"to":8,"from":7,"label":2},{"to":5,"from":2,"label":4},
+	{"to":7,"from":6,"label":5}]}
